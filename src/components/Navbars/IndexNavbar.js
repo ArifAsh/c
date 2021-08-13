@@ -19,7 +19,7 @@
 import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
-import resume from "../../images/Arif Ashogbon resume May:June 2021.pdf"
+import resume from "../../images/Arif Ashogbon resume Fall 2021.pdf"
 // reactstrap components
 import {
   Button,
