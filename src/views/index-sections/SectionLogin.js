@@ -123,7 +123,7 @@ function SectionLogin() {
                   <label>Message</label>
                   <InputGroup className="form-group-no-border">
                    
-                    <textarea name="message" placeholder="Hello Arif, I would like to..." type="text" cols="48" required onChange={formChange}/>
+                    <textarea name="message" placeholder="Hello Arif, I am reaching out to..." type="text" cols="48" required onChange={formChange}/>
                   </InputGroup>
                   <Button
                     block

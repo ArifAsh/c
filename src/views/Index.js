@@ -57,7 +57,7 @@ function Index() {
       <div className="main">
         <SectionButtons />
         <SectionNucleoIcons />
-        {/* <SectionDark /> */}
+    
         <SectionLogin />
       
   
