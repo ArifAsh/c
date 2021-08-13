@@ -46,7 +46,7 @@ function SectionButtons() {
           <Row>
             <Col className="ml-auto mr-auto text-center" md="10">
               <p style={{fontSize:"25px",fontWeight:"400"}}>
-              A third-year student at Wilfred Laurier University currently undergoing a degree in Computer science with management option with an expected graduation date of April 2023.
+              A third-year student at Wilfrid Laurier University currently undergoing a degree in Computer science with management option with an expected graduation date of April 2023.
               In addition to this, I am also an aspiring software developer/software engineer. 
               My love for coding stems from my love for math which started as early as I can remember. 
               I always enjoyed solving challenging problems and realized coding would not only make me solve challenging problems, but the solution to some of these problems could have a real impact on something or someone.

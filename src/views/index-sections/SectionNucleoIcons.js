@@ -22,6 +22,7 @@ import bugTracker from "../../images/bugTracker.png"
 import pathfinder from "../../images/pathfinder.png"
 import sorting from "../../images/sortingVisualizer.png"
 import sudoku from "../../images/sudoku.png"
+import certificate from "../../images/Google Certificate.pdf"
 import {
   TabContent,
   TabPane,
@@ -107,8 +108,8 @@ function SectionNucleoIcons() {
                         <Col className="ml-auto mr-auto" lg="7" md="4" xs="4">
                         Built a fullstack developer application using JavaScript,RESTful API, MVC (Model View Controller), Chart.js, HTML, CSS, jQuery and the MERN stack (MongoDB Cloud Database,Express.js,Node.js,Reactjs).
                         The backend is hosted in heroku while the frontend is deployed on nestlify. The application features user authentication for both admin and client users, in addition to this
-                        it also has a prebuilt demo admin and demo client account to allow unauthorized users demo the application.
-                        Admins have the ability to manage all account informationm(edit/delete/create) with the exception of passwords which only the account owner can change, delete previously reported bugs, report new bugs and assign them to client users, edit exisiting bugs and view all active reported bugs. 
+                        it also has a prebuilt demo admin and demo client account to allow unauthorized users to demo the application.
+                        Admins have the ability to manage all account information(edit/delete/create) with the exception of passwords. Only the account owner can change their password. Admins can also delete previously reported bugs, report new bugs and assign them to client users, edit exisiting bugs and view all active reported bugs. 
                         Clients can view all bugs assigned to them by an admin in detailed text and mark them as complete upon completion.              
                         </Col>
                         
@@ -294,14 +295,21 @@ understanding of computer science and related fields.
                     <li>
                       <Row>
                         <Col className="mx-auto" lg="2" md="4" xs="4">
-                        <h6>Certificate</h6>
+                        <NavLink
+                href={certificate}
+                target="_blank">
+                        <h6 >Certificate</h6>
+                        </NavLink>
                         </Col>
                         <Col lg="3" md="4" xs="4">
-               
-                          <h6>
+                        <NavLink
+                href={certificate}
+                target="_blank">
+                          <h6 href={certificate}>
                           Google IT Automation with Python by Coursera Certificate<br />
                             <small>May 2020</small>
                           </h6>
+                          </NavLink>
                           
                         </Col>
                         <Col lg="7" md="4" xs="4">

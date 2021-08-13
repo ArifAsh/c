@@ -100,7 +100,7 @@ function IndexNavbar() {
                 title="Check out my Linkedin"
               >
                 <i className="fa fa-linkedin" />
-                <p className="d-lg-none">Linkedinr</p>
+                <p className="d-lg-none">Linkedin</p>
               </NavLink>
             </NavItem>
             <NavItem>
