@@ -59,7 +59,7 @@ function SectionNucleoIcons() {
                       toggle("1");
                     }}
                   >
-                    <h2 >Projects</h2>
+                    <h2  style={{cursor:"pointer"}}>Projects</h2>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -69,7 +69,7 @@ function SectionNucleoIcons() {
                       toggle("2");
                     }}
                   >
-                    <h2>Experience</h2>
+                    <h2 style={{cursor:"pointer"}} >Experience</h2>
                   </NavLink>
                 </NavItem>
               </Nav>
