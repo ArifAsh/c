@@ -46,16 +46,12 @@ function SectionButtons() {
           <Row>
             <Col className="ml-auto mr-auto text-center" md="10">
               <p style={{fontSize:"25px",fontWeight:"400"}}>
-              I am a third-year student at Wilfrid Laurier University currently undergoing a degree in Computer science with management option with an expected graduation date of April 2023.
-              In addition to this, I am also an aspiring software developer/software engineer. 
-              My love for coding stems from my love for math which started as early as I can remember. 
-              I always enjoyed solving challenging problems and realized coding would not only make me solve challenging problems, but the solution to some of these problems could have a real impact on something or someone.
-              Upon this realization, coding became my passion and a big part of my life. 
-              I chose computer science as a degree with no experience or knowledge of coding whatsoever. 
-              Consequently, I had to be really determined and self-disciplined to learn and apply a lot of the skills required to be in the field of computer science.
-              Although I have been able to apply some of these skills in my personal projects, I look forward to honing and applying them in real-world situations.
-              Remember, I am always up for a challenge. 
-
+              I am a third-year student, currently undergoing a computer science degree with a business minor at Wilfrid Laurier University.
+              My love for coding and dream of becoming a software engineer stemmed from my internal drive to solve complex problems. Ever since 
+              I was a child, I have loved math and essentially anything that could push me to grow mentally and develop my ingenuity, and it was this realization that
+              led me to pursue a degree in computer science. I have been self-determined and have continuously pushed myself to refine my skills and excel in this field, which can 
+              be seen by the numerous independent projects that I have completed as well as the extracurricular and volunteer opportunities that I have pursued to give me more of that hands-on experience. 
+              I have developed a strong coding foundation and I look forward to being able to hone these skills and continue growing within the workplace.
               </p>
               <br />
               </Col>
