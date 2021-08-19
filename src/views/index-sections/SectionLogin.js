@@ -63,7 +63,7 @@ function SectionLogin() {
     };
 
     async function submit(e){
-      
+      e.preventDefault()
       const { name, email, message } = details;
       if (name && email && message){
       try {
@@ -83,7 +83,7 @@ function SectionLogin() {
         toastifySuccess();
         resetForm();
       } catch (e) {
-        console.log(e);
+      
       }
       return false;
     }
