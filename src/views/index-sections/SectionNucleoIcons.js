@@ -182,7 +182,66 @@ the A* search algorithm to find the shortest possible path.
                       </Row>
                     </li>
                     <hr />
-                    
+                    <li>
+                      <Row>
+                        <Col className="mx-auto" lg="2" md="4" xs="4">
+                        <NavLink
+                href="https://github.com/ArifAsh/Bulletin-board"
+                target="_blank">
+                          <img
+                            alt="No image Available"
+                            className="img-no-padding img-responsive"
+                            src={""}
+                          />
+                          </NavLink>
+                        </Col>
+                        <Col lg="3" md="4" xs="4">
+                        <NavLink
+                href="https://github.com/ArifAsh/Bulletin-board"
+                target="_blank">
+                          <h6>
+                            Bulletin-Board<br />
+                            <small>September 2021</small>
+                          </h6>
+                          </NavLink>
+                        </Col>
+                        <Col lg="7" md="4" xs="4">
+                        Developed a multi-threaded client-server application using Javas stream socket API to allow multiple users to Post and Get notes to and from a board.
+                        </Col>
+                      </Row>
+                    </li>
+                    <hr />
+
+                    <li>
+                      <Row>
+                        <Col className="mx-auto" lg="2" md="4" xs="4">
+                        <NavLink
+                href=""
+                target="_blank">
+                          <img
+                            alt="No image available"
+                            className="img-no-padding img-responsive"
+                            src={""}
+                          />
+                          </NavLink>
+                        </Col>
+                        <Col lg="3" md="4" xs="4">
+                        <NavLink
+                href=""
+                target="_blank">
+                          <h6>
+                          Student record-keeping database <br />
+                            <small>June 2020</small>
+                          </h6>
+                          </NavLink>
+                        </Col>
+                        <Col lg="7" md="4" xs="4">
+                        Worked in a team of 4 to design a student database management system in MySQL. Developed in the command line interface
+                        </Col>
+                      </Row>
+                    </li>
+                    <hr />
+
                     <li>
                       <Row>
                         <Col className="mx-auto" lg="2" md="4" xs="4">
