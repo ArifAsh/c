@@ -288,6 +288,28 @@ any solvable board.
                     <li>
                       <Row>
                         <Col className="mx-auto" lg="2" md="4" xs="4">
+                        <h6>Software Developer</h6>
+                        </Col>
+                        <Col lg="3" md="4" xs="4">
+               
+                          <h6>
+                            Google<br />
+                            <small>May 2022 - August 2022</small>
+                          </h6>
+                          
+                        </Col>
+                        <Col lg="7" md="4" xs="4">
+                        • Currently working....<br/>
+•........
+                        </Col>
+                       
+                      </Row>
+                    </li>
+                    <hr/>
+
+                    <li>
+                      <Row>
+                        <Col className="mx-auto" lg="2" md="4" xs="4">
                         <h6>Volunteer Experience</h6>
                         </Col>
                         <Col lg="3" md="4" xs="4">
@@ -308,6 +330,7 @@ control flows.
                       </Row>
                     </li>
                     <hr/>
+
                     <li>
                       <Row>
                         <Col className="mx-auto" lg="2" md="4" xs="4">
