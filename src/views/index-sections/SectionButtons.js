@@ -46,12 +46,11 @@ function SectionButtons() {
           <Row>
             <Col className="ml-auto mr-auto text-center" md="10">
               <p style={{fontSize:"25px",fontWeight:"400"}}>
-              I am a third-year student, currently undergoing a computer science degree with a business minor at Wilfrid Laurier University.
-              My love for coding and dream of becoming a software engineer stemmed from my internal drive to solve complex problems. Ever since 
-              I was a child, I have loved math and essentially anything that could push me to grow mentally and develop my ingenuity, and it was this realization that
-              led me to pursue a degree in computer science. I have been self-determined and have continuously pushed myself to refine my skills and excel in this field, which can 
-              be seen by the numerous independent projects that I have completed as well as the extracurricular and volunteer opportunities that I have pursued to give me more of that hands-on experience. 
-              I have developed a strong coding foundation and I look forward to being able to hone these skills and continue growing within the workplace.
+              I am a recent graduate with an Honours Bachelor of Science in Computer Science and a minor in Business Management from Wilfrid Laurier University. My journey in technology has been driven by a deep curiosity and a passion for solving complex problems, leading me to roles at Google where I contributed to both the Google Cloud Build OSS and Gmail teams. My work primarily involved developing CI/CD pipelines, enhancing infrastructure, and improving developer tools using technologies like Angular, Java, Tekton, Docker, and APIs.
+
+              <br/>Throughout my academic and professional journey, I have consistently sought to expand my skill set, becoming proficient in programming languages such as Python, JavaScript, Java, C, and Golang. My love for coding and problem-solving has been evident not only in my professional work but also in the numerous personal projects I've undertaken, such as developing full-stack applications and algorithm visualizers.
+
+              <br/>I am driven by a desire to continue growing within the field, eager to take on new challenges that allow me to apply and further refine my skills. I look forward to contributing to innovative projects and making meaningful impacts within the tech industry.
               </p>
               <br />
               </Col>

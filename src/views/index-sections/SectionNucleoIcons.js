@@ -284,11 +284,36 @@ any solvable board.
               <Row>
                 <Col>
               
-                <ul>   
-                    <li>
+                <ul><li>
                       <Row>
                         <Col className="mx-auto" lg="2" md="4" xs="4">
                         <h6>Software Developer</h6>
+                        </Col>
+                        <Col lg="3" md="4" xs="4">
+               
+                          <h6>
+                            Google<br />
+                            <small>Sept 2023 - Present</small>
+                          </h6>
+                          
+                        </Col>
+                        <Col lg="7" md="4" xs="4">
+                        •  Worked on a Google Cloud Build OSS team primarily building continuous Integration and continuous
+development pipelines (CI/CD) specifically, Tekton pipelines and Docker Images.<br/>
+•  Synced internal repositories to GitHub with tools like Copybara and worked with various
+dependency management tools.<br/>
+•  Made significant improvements to teams infrastructure specifically, testing flows(integration/unit
+tests) and release flows.<br/>
+                        </Col>
+                       
+                      </Row>
+                    </li>  
+                    <hr/>
+
+                    <li>
+                      <Row>
+                        <Col className="mx-auto" lg="2" md="4" xs="4">
+                        <h6>Software Developer Intern</h6>
                         </Col>
                         <Col lg="3" md="4" xs="4">
                
@@ -299,8 +324,9 @@ any solvable board.
                           
                         </Col>
                         <Col lg="7" md="4" xs="4">
-                        • Currently working....<br/>
-•........
+                        •  Worked on a full-stack project with the Gmail team in Angular and Java.<br/>
+                        •  Implemented improvements in internal developer tools and fixed multiple discrepancies affecting
+thousands of developers.
                         </Col>
                        
                       </Row>
