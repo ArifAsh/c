@@ -53,7 +53,7 @@ function IndexHeader() {
               </div>
             </div>
             <h2 className="presentation-subtitle text-center">
-             Wilfrid Laurier Computer Science Major 
+             Google Software Developer 
             </h2>
           </Container>
         </div>
