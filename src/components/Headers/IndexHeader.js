@@ -18,6 +18,10 @@
 */
 /*eslint-disable*/
 import React from "react";
+import antoineBarresImg from "../../assets/img/antoine-barres.jpg";
+import fogLowImg from "../../assets/img/fog-low.png";
+import cloudsImg from "../../assets/img/clouds.png";
+
 
 // reactstrap components
 import { Container } from "reactstrap";
@@ -29,10 +33,8 @@ function IndexHeader() {
     <>
       <div
         className="page-header section-dark"
-        style={{
-          backgroundImage:
-            "url(" + require("../../assets/img/antoine-barres.jpg").default + ")",
-        }}
+        style={{ backgroundImage: `url(${antoineBarresImg})` }}
+
       >
         <div className="filter" />
         <div className="content-center">
@@ -42,13 +44,14 @@ function IndexHeader() {
               <div className="fog-low">
                 <img
                   alt="..."
-                  src={require("../../assets/img/fog-low.png").default}
+                  src={fogLowImg}
+
                 />
               </div>
               <div className="fog-low right">
                 <img
                   alt="..."
-                  src={require("../../assets/img/fog-low.png").default}
+                  src={fogLowImg}
                 />
               </div>
             </div>
@@ -59,10 +62,8 @@ function IndexHeader() {
         </div>
         <div
           className="moving-clouds"
-          style={{
-            backgroundImage:
-              "url(" + require("../../assets/img/clouds.png").default + ")",
-          }}
+          style={{ backgroundImage: `url(${cloudsImg})` }}
+
         />
       
       </div>
