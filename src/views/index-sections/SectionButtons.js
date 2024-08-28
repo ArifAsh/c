@@ -47,10 +47,8 @@ function SectionButtons() {
             <Col className="ml-auto mr-auto text-center" md="10">
               <p style={{fontSize:"25px",fontWeight:"400"}}>
               I am a recent graduate with an Honours Bachelor of Science in Computer Science and a minor in Business Management from Wilfrid Laurier University. My journey in technology has been driven by a deep curiosity and a passion for solving complex problems, leading me to roles at Google where I contributed to both the Google Cloud Build OSS and Gmail teams. My work primarily involved developing CI/CD pipelines, enhancing infrastructure, and improving developer tools using technologies like Angular, Java, Tekton, Docker, and APIs.
-
-              <br/>Throughout my academic and professional journey, I have consistently sought to expand my skill set, becoming proficient in programming languages such as Python, JavaScript, Java, C, and Golang. My love for coding and problem-solving has been evident not only in my professional work but also in the numerous personal projects I've undertaken, such as developing full-stack applications and algorithm visualizers.
-
-              <br/>I am driven by a desire to continue growing within the field, eager to take on new challenges that allow me to apply and further refine my skills. I look forward to contributing to innovative projects and making meaningful impacts within the tech industry.
+              Throughout my academic and professional journey, I have consistently sought to expand my skill set, becoming proficient in programming languages such as Python, JavaScript, Java, C, and Golang. My love for coding and problem-solving has been evident not only in my professional work but also in the numerous personal projects I've undertaken, such as developing full-stack applications and algorithm visualizers.
+              I am driven by a desire to continue growing within the field, eager to take on new challenges that allow me to apply and further refine my skills. I look forward to contributing to innovative projects and making meaningful impacts within the tech industry.
               </p>
               <br />
               </Col>
