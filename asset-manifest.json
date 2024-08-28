@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.3a8b3ef7.css",
+    "main.css": "./static/css/main.7f78640e.css",
     "main.js": "./static/js/main.0e149e6d.js",
     "static/media/clouds.png": "./static/media/clouds.3c700c1313cc1cd3d3c5.png",
     "static/media/antoine-barres.jpg": "./static/media/antoine-barres.bc3299c239c25e5bf937.jpg",
@@ -12,12 +12,16 @@
     "static/media/sortingVisualizer.png": "./static/media/sortingVisualizer.52a4d085f0a27751603f.png",
     "static/media/bugTracker.png": "./static/media/bugTracker.cdf1a586291a8d62f999.png",
     "static/media/sudoku.png": "./static/media/sudoku.0bd0fe9dac3fdd3fbd62.png",
+    "static/media/nucleo-icons.eot": "./static/media/nucleo-icons.bd42d77b9672555647d1.eot",
+    "static/media/nucleo-icons.ttf": "./static/media/nucleo-icons.4466aeec3386b965a232.ttf",
+    "static/media/nucleo-icons.woff": "./static/media/nucleo-icons.8e954b749f951b654fc6.woff",
+    "static/media/nucleo-icons.woff2": "./static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
     "index.html": "./index.html",
-    "main.3a8b3ef7.css.map": "./static/css/main.3a8b3ef7.css.map",
+    "main.7f78640e.css.map": "./static/css/main.7f78640e.css.map",
     "main.0e149e6d.js.map": "./static/js/main.0e149e6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a8b3ef7.css",
+    "static/css/main.7f78640e.css",
     "static/js/main.0e149e6d.js"
   ]
 }
