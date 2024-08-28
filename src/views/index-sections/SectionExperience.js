@@ -32,7 +32,7 @@ import {
 } from "reactstrap";
 
 // reactstrap components
-import { Button, Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 // core components
 
@@ -59,7 +59,7 @@ function SectionNucleoIcons() {
                       toggle("1");
                     }}
                   >
-                    <h2  style={{cursor:"pointer"}}>Projects</h2>
+                    <h2  style={{cursor:"pointer"}}>Experience</h2>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -69,7 +69,7 @@ function SectionNucleoIcons() {
                       toggle("2");
                     }}
                   >
-                    <h2 style={{cursor:"pointer"}} >Experience</h2>
+                    <h2 style={{cursor:"pointer"}} >Project</h2>
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -77,7 +77,160 @@ function SectionNucleoIcons() {
           </div>
           <TabContent className="following" activeTab={activeTab}>
             <TabPane tabId="1" id="follows">
-              <Row>
+            <Row>
+                <Col>
+              
+                <ul><li>
+                      <Row>
+                        <Col className="mx-auto" lg="2" md="4" xs="4">
+                        <h6>Software Developer</h6>
+                        </Col>
+                        <Col lg="3" md="4" xs="4">
+               
+                          <h6>
+                            Google<br />
+                            <small>Sept 2023 - Present</small>
+                          </h6>
+                          
+                        </Col>
+                        <Col lg="7" md="4" xs="4">
+                        •  Worked on a Google Cloud Build OSS team primarily building continuous Integration and continuous
+development pipelines (CI/CD) specifically, Tekton pipelines and Docker Images.<br/>
+•  Synced internal repositories to GitHub with tools like Copybara and worked with various
+dependency management tools.<br/>
+•  Made significant improvements to teams infrastructure specifically, testing flows(integration/unit
+tests) and release flows.<br/>
+                        </Col>
+                       
+                      </Row>
+                    </li>  
+                    <hr/>
+
+                    <li>
+                      <Row>
+                        <Col className="mx-auto" lg="2" md="4" xs="4">
+                        <h6>Software Developer Intern</h6>
+                        </Col>
+                        <Col lg="3" md="4" xs="4">
+               
+                          <h6>
+                            Google<br />
+                            <small>May 2022 - August 2022</small>
+                          </h6>
+                          
+                        </Col>
+                        <Col lg="7" md="4" xs="4">
+                        •  Worked on a full-stack project with the Gmail team in Angular and Java.<br/>
+                        •  Implemented improvements in internal developer tools and fixed multiple discrepancies affecting
+thousands of developers.
+                        </Col>
+                       
+                      </Row>
+                    </li>
+                    <hr/>
+
+                    <li>
+                      <Row>
+                        <Col className="mx-auto" lg="2" md="4" xs="4">
+                        <h6>Volunteer Experience</h6>
+                        </Col>
+                        <Col lg="3" md="4" xs="4">
+               
+                          <h6>
+                            Certified Listeners<br />
+                            <small>Feb 2021- May 2021</small>
+                          </h6>
+                          
+                        </Col>
+                        <Col lg="7" md="4" xs="4">
+                        • Worked with Acuity Scheduling using the API customization to regulate the number the time slots
+a person can schedule a week and automate the scheduling of new members.<br/>
+• Set up an emotional support help line using Amazons AWS connect system and developed new
+control flows.
+                        </Col>
+                       
+                      </Row>
+                    </li>
+                    <hr/>
+
+                    <li>
+                      <Row>
+                        <Col className="mx-auto" lg="2" md="4" xs="4">
+                        <h6>Extracurricular Experience</h6>
+                        </Col>
+                        <Col lg="3" md="4" xs="4">
+               
+                          <h6>
+                          WLU PHI Society of Computer Science and Mathematics (Waterloo) Member<br />
+                            <small>January 2020-Present</small>
+                          </h6>
+                          
+                        </Col>
+                        <Col lg="7" md="4" xs="4">
+                        • Assisted and collaborated with fellow computer science students to complete projects and build
+applications <br/>
+• Successfully built a file encoder and decoder using the Huffman algorithm.
+                        </Col>
+                       
+                      </Row>
+                    </li>
+                    <hr/>
+                    <li>
+                      <Row>
+                        <Col className="mx-auto" lg="2" md="4" xs="4">
+                        <h6>Extracurricular Experience</h6>
+                        </Col>
+                        <Col lg="3" md="4" xs="4">
+               
+                          <h6>
+                          Artificial Intelligence Club<br />
+                            <small>February 2021-Present</small>
+                          </h6>
+                          
+                        </Col>
+                        <Col lg="7" md="4" xs="4">
+                        • Attending events with qualified professionals in fields relevant to mine that expand my
+understanding of computer science and related fields.
+                        </Col>
+                       
+                      </Row>
+                    </li>
+                    <hr/>
+                    <li>
+                      <Row>
+                        <Col className="mx-auto" lg="2" md="4" xs="4">
+                        <NavLink
+                href={certificate}
+                target="_blank">
+                        <h6 >Certificate</h6>
+                        </NavLink>
+                        </Col>
+                        <Col lg="3" md="4" xs="4">
+                        <NavLink
+                href={certificate}
+                target="_blank">
+                          <h6 href={certificate}>
+                          Google IT Automation with Python by Coursera Certificate<br />
+                            <small>May 2020</small>
+                          </h6>
+                          </NavLink>
+                          
+                        </Col>
+                        <Col lg="7" md="4" xs="4">
+                        • Six-course certificate designed by google providing in-demand skills like Python, Git, and IT automation.
+                        </Col>
+                       
+                      </Row>
+                    </li>
+                    <hr/>
+                    
+
+                  </ul>
+                </Col>
+              </Row>
+            </TabPane>
+            <TabPane className="text-center" tabId="2" id="following">
+            <Row>
                 <Col className="ml-auto mr-auto" md="10">
                   <ul className="list-unstyled follows">
                     <li>
@@ -271,7 +424,7 @@ any solvable board.
 • Made with Python using Eclipse IDE, pythons pygame module, and known algorithm
                         </Col>
                        
-                      </Row>
+                        </Row>
                     </li>
                     <hr/>
                     
@@ -279,159 +432,7 @@ any solvable board.
                   </ul>
                 </Col>
               </Row>
-            </TabPane>
-            <TabPane className="text-center" tabId="2" id="following">
-              <Row>
-                <Col>
               
-                <ul><li>
-                      <Row>
-                        <Col className="mx-auto" lg="2" md="4" xs="4">
-                        <h6>Software Developer</h6>
-                        </Col>
-                        <Col lg="3" md="4" xs="4">
-               
-                          <h6>
-                            Google<br />
-                            <small>Sept 2023 - Present</small>
-                          </h6>
-                          
-                        </Col>
-                        <Col lg="7" md="4" xs="4">
-                        •  Worked on a Google Cloud Build OSS team primarily building continuous Integration and continuous
-development pipelines (CI/CD) specifically, Tekton pipelines and Docker Images.<br/>
-•  Synced internal repositories to GitHub with tools like Copybara and worked with various
-dependency management tools.<br/>
-•  Made significant improvements to teams infrastructure specifically, testing flows(integration/unit
-tests) and release flows.<br/>
-                        </Col>
-                       
-                      </Row>
-                    </li>  
-                    <hr/>
-
-                    <li>
-                      <Row>
-                        <Col className="mx-auto" lg="2" md="4" xs="4">
-                        <h6>Software Developer Intern</h6>
-                        </Col>
-                        <Col lg="3" md="4" xs="4">
-               
-                          <h6>
-                            Google<br />
-                            <small>May 2022 - August 2022</small>
-                          </h6>
-                          
-                        </Col>
-                        <Col lg="7" md="4" xs="4">
-                        •  Worked on a full-stack project with the Gmail team in Angular and Java.<br/>
-                        •  Implemented improvements in internal developer tools and fixed multiple discrepancies affecting
-thousands of developers.
-                        </Col>
-                       
-                      </Row>
-                    </li>
-                    <hr/>
-
-                    <li>
-                      <Row>
-                        <Col className="mx-auto" lg="2" md="4" xs="4">
-                        <h6>Volunteer Experience</h6>
-                        </Col>
-                        <Col lg="3" md="4" xs="4">
-               
-                          <h6>
-                            Certified Listeners<br />
-                            <small>Feb 2021- May 2021</small>
-                          </h6>
-                          
-                        </Col>
-                        <Col lg="7" md="4" xs="4">
-                        • Worked with Acuity Scheduling using the API customization to regulate the number the time slots
-a person can schedule a week and automate the scheduling of new members.<br/>
-• Set up an emotional support help line using Amazons AWS connect system and developed new
-control flows.
-                        </Col>
-                       
-                      </Row>
-                    </li>
-                    <hr/>
-
-                    <li>
-                      <Row>
-                        <Col className="mx-auto" lg="2" md="4" xs="4">
-                        <h6>Extracurricular Experience</h6>
-                        </Col>
-                        <Col lg="3" md="4" xs="4">
-               
-                          <h6>
-                          WLU PHI Society of Computer Science and Mathematics (Waterloo) Member<br />
-                            <small>January 2020-Present</small>
-                          </h6>
-                          
-                        </Col>
-                        <Col lg="7" md="4" xs="4">
-                        • Assisted and collaborated with fellow computer science students to complete projects and build
-applications <br/>
-• Successfully built a file encoder and decoder using the Huffman algorithm.
-                        </Col>
-                       
-                      </Row>
-                    </li>
-                    <hr/>
-                    <li>
-                      <Row>
-                        <Col className="mx-auto" lg="2" md="4" xs="4">
-                        <h6>Extracurricular Experience</h6>
-                        </Col>
-                        <Col lg="3" md="4" xs="4">
-               
-                          <h6>
-                          Artificial Intelligence Club<br />
-                            <small>February 2021-Present</small>
-                          </h6>
-                          
-                        </Col>
-                        <Col lg="7" md="4" xs="4">
-                        • Attending events with qualified professionals in fields relevant to mine that expand my
-understanding of computer science and related fields.
-                        </Col>
-                       
-                      </Row>
-                    </li>
-                    <hr/>
-                    <li>
-                      <Row>
-                        <Col className="mx-auto" lg="2" md="4" xs="4">
-                        <NavLink
-                href={certificate}
-                target="_blank">
-                        <h6 >Certificate</h6>
-                        </NavLink>
-                        </Col>
-                        <Col lg="3" md="4" xs="4">
-                        <NavLink
-                href={certificate}
-                target="_blank">
-                          <h6 href={certificate}>
-                          Google IT Automation with Python by Coursera Certificate<br />
-                            <small>May 2020</small>
-                          </h6>
-                          </NavLink>
-                          
-                        </Col>
-                        <Col lg="7" md="4" xs="4">
-                        • Six-course certificate designed by google providing in-demand skills like Python, Git, and IT automation.
-                        </Col>
-                       
-                      </Row>
-                    </li>
-                    <hr/>
-                    
-
-                  </ul>
-                </Col>
-              </Row>
             </TabPane>
           </TabContent>
      

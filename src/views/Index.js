@@ -26,9 +26,8 @@ import IndexHeader from "components/Headers/IndexHeader.js";
 
 
 // index sections
-import SectionButtons from "views/index-sections/SectionButtons.js";
-import SectionNucleoIcons from "views/index-sections/SectionNucleoIcons.js";
-import SectionLogin from "views/index-sections/SectionLogin.js";
+import SectionBio from "views/index-sections/SectionBio.js";
+import SectionExperience from "views/index-sections/SectionExperience";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -44,13 +43,8 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <div className="main">
-        <SectionButtons />
-        <SectionNucleoIcons />
-    
-        <SectionLogin />
-      
-  
-       
+        <SectionBio />
+        <SectionExperience />     
       </div>
     </>
   );

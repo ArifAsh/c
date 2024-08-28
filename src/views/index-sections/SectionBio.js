@@ -44,7 +44,7 @@ function SectionButtons() {
           </div>
           <div>
           <Row>
-            <Col className="ml-auto mr-auto text-center" md="10">
+            <Col className="ml-auto mr-auto text-center">
               <p style={{fontSize:"25px",fontWeight:"400",textAlign:"center"}}>
               I am a recent graduate with an Honours Bachelor of Science in Computer Science and a minor in Business Management from Wilfrid Laurier University. My journey in technology has been driven by a deep curiosity and a passion for solving complex problems, leading me to roles at Google where I contributed to both the Google Cloud Build OSS and Gmail teams. My work primarily involved developing CI/CD pipelines, enhancing infrastructure, and improving developer tools using technologies like Angular, Java, Tekton, Docker, and APIs.
               Throughout my academic and professional journey, I have consistently sought to expand my skill set, becoming proficient in programming languages such as Python, JavaScript, Java, C, and Golang. My love for coding and problem-solving has been evident not only in my professional work but also in the numerous personal projects I've undertaken, such as developing full-stack applications and algorithm visualizers.
