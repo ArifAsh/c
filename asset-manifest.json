@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "./static/css/main.7f78640e.css",
-    "main.js": "./static/js/main.b285a589.js",
+    "main.css": "./static/css/main.1ec1728e.css",
+    "main.js": "./static/js/main.2f30e0c1.js",
     "static/media/clouds.png": "./static/media/clouds.3c700c1313cc1cd3d3c5.png",
     "static/media/antoine-barres.jpg": "./static/media/antoine-barres.bc3299c239c25e5bf937.jpg",
-    "static/media/login-image.jpg": "./static/media/login-image.21e8ba3f9dca3c346851.jpg",
     "static/media/Google Certificate.pdf": "./static/media/Google Certificate.c8f2b8eebfdbc520003e.pdf",
     "static/media/fog-low.png": "./static/media/fog-low.965eab52c95e117d1d45.png",
     "static/media/resume.pdf": "./static/media/resume.e1ee4b3de70efa3a6466.pdf",
@@ -17,11 +16,11 @@
     "static/media/nucleo-icons.woff": "./static/media/nucleo-icons.8e954b749f951b654fc6.woff",
     "static/media/nucleo-icons.woff2": "./static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
     "index.html": "./index.html",
-    "main.7f78640e.css.map": "./static/css/main.7f78640e.css.map",
-    "main.b285a589.js.map": "./static/js/main.b285a589.js.map"
+    "main.1ec1728e.css.map": "./static/css/main.1ec1728e.css.map",
+    "main.2f30e0c1.js.map": "./static/js/main.2f30e0c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f78640e.css",
-    "static/js/main.b285a589.js"
+    "static/css/main.1ec1728e.css",
+    "static/js/main.2f30e0c1.js"
   ]
 }
